@@ -71,7 +71,7 @@ if (!is_null($events['events']))
 			];
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "HELP")
 			{
-				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[rubber] เพื่อดูข้อมูลสถานที่"."\n"."[อากาศ] เพื่อดูสถานะอากาศปัจจุบัน" . "\n"  . "[ภาพ] เพื่อดูภาพล่าสุด"."\n"."[ภาพ 00:00] พิมพ์ภาพตามด้วยเวลา"."\n"."#อุปกรณ์จะถ่ายรูปทุกๆ 15 นาที"];
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[info] เพื่อดูข้อมูลสถานที่"."\n"."[อากาศ] เพื่อดูสถานะอากาศปัจจุบัน" . "\n"  . "[ภาพ] เพื่อดูภาพล่าสุด"."\n"."[ภาพ 00:00] พิมพ์ภาพตามด้วยเวลา"."\n"."#อุปกรณ์จะถ่ายรูปทุกๆ 15 นาที"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "อากาศ"){
@@ -88,17 +88,17 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
-			if (trim(strtoupper($text)) == "สูตรปุ่ย")
+			if (trim(strtoupper($text)) == "a")
 			{
-				$messages = ['type' => 'text', 'text' => "สุตรปุ๋ย"];
+				$messages = ['type' => 'text', 'text' => "a"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "สูตรปุ่ย")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "a")
 			{
-				$messages = [
+				$messages = ["a"];
 				'type' => 'text',
 				'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
 			}
-			if (trim(strtoupper($text)) == "สูตรปุ่ย")
+			if (trim(strtoupper($text)) == "a")
 			{
 				$messages = ['type' => 'text', 'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
 			}
@@ -106,7 +106,7 @@ if (!is_null($events['events']))
 			{
 				$messages = ['type' => 'image', 'originalContentUrl' => "https://sv6.postjung.com/picpost/data/184/184340-1-2995.jpg", 'previewImageUrl' => "https://sv6.postjung.com/picpost/data/184/184340-1-2995.jpg"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "rubber")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "info")
 			{
 				$messages = ['type' => 'text', 'text' => "ยางพาราเป็นพืชเศรฐกิจไทย" ."\n"."อ่านเพิ่มเติม: https://th.wikipedia.org/wiki/%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%B2"];
 			}
