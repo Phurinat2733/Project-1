@@ -88,6 +88,11 @@ if (!is_null($events['events']))
 				
 				$messages = ['type' => 'text', 'text' => "วิธีการผสมปุ๋ยใช้เอง" .  "\n" . "https://www2.moac.go.th/ewt_news.php?nid=436."  .  "\n" . "[เมนู] เพื่อดูเมนู"];
 			}
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ราคาปุ๋ย"){
+				
+				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ย" .  "\n" . "https://app.luminpdf.com/viewer/PGJn9rHhyfcqwm8f4."  .  "\n" . "[เมนู] เพื่อดูเมนู"];
+			}
 			
 			
 			
