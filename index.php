@@ -38,7 +38,23 @@ function showtime($time)
 		$h[0] . ":" . $h[1],
 		$selectbydate
 	);
-
+}
+// database
+$dbconn = pg_connect("host=" . $GLOBALS['host'] . " port=5432 dbname=" . $GLOBALS['db'] . " user=" . $GLOBALS['user'] . " password=" . $GLOBALS['pass']) or die('Could not connect: ' . pg_last_error());
+// Get POST body content
+$content = file_get_contents('php://input');
+// Parse JSON
+$events = json_decode($content, true);
+// Validate parsed JSON data
+$Light = file_get_contents('https://api.thingspeak.com/channels/331361/fields/3/last.txt');
+$water = file_get_contents('https://api.thingspeak.com/channels/331361/fields/4/last.txt');
+$HUM = file_get_contents('https://api.thingspeak.com/channels/331361/fields/2/last.txt');
+$TEM = file_get_contents('https://api.thingspeak.com/channels/331361/fields/1/last.txt');
+$aba = ('https://i.imgur.com//yuRTcoH.jpg');
+// convert
+$sqlgetlastrecord = "select * from weatherstation order by \"DATETIME\" desc limit 1";
+if (!is_null($events['events']))
+{
 	// Loop through each event
 	foreach($events['events'] as $event)
 	{
@@ -72,10 +88,11 @@ function showtime($time)
 			
 			
 			//EndCase
-			if (trim(strtoupper($text)) == "how")
+			if (trim(strtoupper($text)) == "A")
 			{
 				$messages = ['type' => 'text', 'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
 			}
+			if ($text == "
 			if (trim(strtoupper($text)) == "HI")
 			{
 				$messages = ['type' => 'text', 'text' => "hello"];
