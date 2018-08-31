@@ -92,6 +92,16 @@ if (!is_null($events['events']))
 			{
 				$messages = ['type' => 'text', 'text' => "hello"];
 			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A")
+			{
+				$messages = [
+				'type' => 'text',
+				'text' => "https://www.facebook.com/Easy-Trips-in-Trang-by-using-Graph-Theory-and-IoT-222676888330387/"];
+			}
+			if (trim(strtoupper($text)) == "HI")
+			{
+				$messages = ['type' => 'text', 'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
+			}
 			if ($text == "รูป")
 			{
 				$messages = ['type' => 'image', 'originalContentUrl' => "https://sv6.postjung.com/picpost/data/184/184340-1-2995.jpg", 'previewImageUrl' => "https://sv6.postjung.com/picpost/data/184/184340-1-2995.jpg"];
