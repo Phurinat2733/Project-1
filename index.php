@@ -94,7 +94,7 @@ if (!is_null($events['events']))
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "a")
 			{
-				$messages = ["a"];
+				$messages = [
 				'type' => 'text',
 				'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
 			}
