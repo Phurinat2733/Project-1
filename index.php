@@ -88,9 +88,9 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
-			if (trim(strtoupper($text)) == "HI")
+			if (trim(strtoupper($text)) == "สูตรปุ่ย")
 			{
-				$messages = ['type' => 'text', 'text' => "hello"];
+				$messages = ['type' => 'text', 'text' => "rubber"];
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A")
 			{
@@ -98,7 +98,7 @@ if (!is_null($events['events']))
 				'type' => 'text',
 				'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
 			}
-			if (trim(strtoupper($text)) == "HI")
+			if (trim(strtoupper($text)) == "สูตรปุ่ย")
 			{
 				$messages = ['type' => 'text', 'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
 			}
