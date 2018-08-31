@@ -88,18 +88,9 @@ if (!is_null($events['events']))
 			
 			
 			//EndCase
-			if (trim(strtoupper($text)) == "A")
-			{
-				$messages = ['type' => 'text', 'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
-			}
-			if ($text == "
 			if (trim(strtoupper($text)) == "HI")
 			{
 				$messages = ['type' => 'text', 'text' => "hello"];
-			}
-			if (trim(strtoupper($text)) == "1")
-			{
-				$messages = ['type' => 'text', 'text' => "30 บาท"];
 			}
 			if ($text == "รูป")
 			{
