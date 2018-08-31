@@ -92,6 +92,10 @@ if (!is_null($events['events']))
 			{
 				$messages = ['type' => 'text', 'text' => "hello"];
 			}
+			if (trim(strtoupper($text)) == "1")
+			{
+				$messages = ['type' => 'text', 'text' => "30 บาท"];
+			}
 			if ($text == "รูป")
 			{
 				$messages = ['type' => 'image', 'originalContentUrl' => "https://sv6.postjung.com/picpost/data/184/184340-1-2995.jpg", 'previewImageUrl' => "https://sv6.postjung.com/picpost/data/184/184340-1-2995.jpg"];
