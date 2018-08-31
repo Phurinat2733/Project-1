@@ -90,9 +90,9 @@ if (!is_null($events['events']))
 			//EndCase
 			if (trim(strtoupper($text)) == "สูตรปุ่ย")
 			{
-				$messages = ['type' => 'text', 'text' => "rubber"];
+				$messages = ['type' => 'text', 'text' => "สุตรปุ๋ย"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "สูตรปุ่ย")
 			{
 				$messages = [
 				'type' => 'text',
