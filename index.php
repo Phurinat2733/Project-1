@@ -72,6 +72,10 @@ function showtime($time)
 			
 			
 			//EndCase
+			if (trim(strtoupper($text)) == "how")
+			{
+				$messages = ['type' => 'text', 'text' => "https://drive.google.com/open?id=14rP9TkpqLo3UwBcUzOu5zeoWu2tMp9eR"];
+			}
 			if (trim(strtoupper($text)) == "HI")
 			{
 				$messages = ['type' => 'text', 'text' => "hello"];
