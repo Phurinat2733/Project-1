@@ -66,7 +66,7 @@ if (!is_null($events['events']))
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			// Build message to reply back
-			$messages = ['type' => 'text', 'text' => "ยินดีต้อนรับเข้าสูู่ ASTF"."\n". "กรุณากด [H] เพื่อดูเมนูนะครับ 😊😊😊" 
+			$messages = ['type' => 'text', 'text' => "ยินดีต้อนรับเข้าสูู่ Cal"."\n". "กรุณากด [H] เพื่อดูเมนูนะครับ 😊😊😊" 
 			// "text"
 			];
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "H")
@@ -117,23 +117,23 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "Hi"){
 				
-  				$messages = ['type' => 'text', 'text' => "Hi 😄😄😄" ."\n" . "Welcome to ASTF "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "Hi 😄😄😄" ."\n" . "Welcome to Cal "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "รัก"){
 				
-  				$messages = ['type' => 'text', 'text' => "รักเหมือนกันนะ 😍😍😍" ."\n" . "Welcome to ASTF "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "รักเหมือนกันนะ 😍😍😍" ."\n" . "Welcome to Cal "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ฝันดี"){
 				
-  				$messages = ['type' => 'text', 'text' => "ฝันดีเช่นกัน 😍😍😍" ."\n" . "Welcome to ASTF "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "ฝันดีเช่นกัน 😍😍😍" ."\n" . "Welcome to Cal "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ขอบคุณ"){
 				
-  				$messages = ['type' => 'text', 'text' => "ขอบคุณที่ใช้บริการนะครับ 😍😍😍" ."\n" . "Thanks for ASTF "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "ขอบคุณที่ใช้บริการนะครับ 😍😍😍" ."\n" . "Thanks for Use Cal "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
 			
 
