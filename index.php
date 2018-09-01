@@ -154,8 +154,21 @@ if (!is_null($events['events']))
 				
   				$messages = ['type' => 'text', 'text' => "Bye Bye 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
+	                
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "เป็นไงบ้าง"){
+				
+  				$messages = ['type' => 'text', 'text' => "สบายดี ขอบคุณ 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+			}
 	
 			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "How are you"){
+				
+  				$messages = ['type' => 'text', 'text' => "I'm find Thank you 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+			}
+	
 			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
