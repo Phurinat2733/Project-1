@@ -112,7 +112,12 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "สวัสดี"){
 				
-				$messages = ['type' => 'text', 'text' => "สวัสดี" ."\n" . "สวัสดีครับ "  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "สวัสดีครับ" ."\n" . "ยินดีต้อนรับเข้าสู่ ASTF "  .  "\n" . "กด [H] เพื่อดูเมนูเลยนะครับ"];
+			}
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "Hi"){
+				
+				$messages = ['type' => 'text', 'text' => "Hi" ."\n" . "Welcome to ASTF "  .  "\n" . "click [H] for help"];
 			}
 			
 			
