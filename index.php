@@ -169,8 +169,12 @@ if (!is_null($events['events']))
   				$messages = ['type' => 'text', 'text' => "สวยพี่สวย!!!!!" ."\n" . "Thanks for Use CAL. " . "\n" . "click [H] for menu 😄😄😄"];
 			}
 			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "สวยพี่สวย"){
+				
+  				$messages = ['type' => 'text', 'text' => "แตก1!!!!!" ."\n" . "Thanks for Use CAL. " . "\n" . "click [H] for menu 😄😄😄"];
+			}
 			
-	
 			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
