@@ -109,7 +109,11 @@ if (!is_null($events['events']))
 				
 				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ยใส่ยางพาราที่ถูกที่สุดในช่วงอายุต่างๆ" ."\n" . "คำนวณหาราคาปุ๋ยที่ถุกที่สุดโดยวิธีเปรียบเทียบอัตราส่วน และขั้นตอนวิธีซิมเพล็กซ์ " .  "\n" . "https://docs.google.com/document/d/1xnbQIHYP_yboKn3CEE819JvgdpLwhJVhgp2aACyc-ww/edit"  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
-			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "สวัสดี"){
+				
+				$messages = ['type' => 'text', 'text' => "สวัสดี" ."\n" . "สวัสดีครับ "  .  "\n" . "[H] เพื่อดูเมนู"];
+			}
 			
 			
 			
