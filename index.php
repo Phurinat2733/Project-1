@@ -98,6 +98,11 @@ if (!is_null($events['events']))
 				
 				$messages = ['type' => 'text', 'text' => "ปุ๋ย" ."\n" . "ดูข้อมูลปุ๋ยและวิธีการใช้ปุ๋ยในแต่ละช่วงอายุ" .  "\n" . "http://www.pravitgroup.co.th/2016/fertilizer_rubber_tree/."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "7"){
+				
+				$messages = ['type' => 'text', 'text' => "ตารางคำนวณสูตรปุ๋ย" ."\n" . "คำนวณหาแม่ปุ๋ยมาผสมทำปุ๋ยโดยใช้ Microsoft Excel" .  "\n" . "https://docs.google.com/spreadsheets/d/1gR7ftZv48Xvcr8iSD0WLCXMn81L68-4g0LRx42M7-UU/edit#gid=1990499298"  .  "\n" . "[H] เพื่อดูเมนู"];
+			}
 			
 			
 			
