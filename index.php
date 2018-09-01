@@ -66,7 +66,7 @@ if (!is_null($events['events']))
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			// Build message to reply back
-			$messages = ['type' => 'text', 'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."พิมพ์ตัวอักษรตามที่กำหนดให้" ."\n" ."\n". "[H] เพื่อดูเมนู" 
+			$messages = ['type' => 'text', 'text' => "ยินดีต้อนรับเข้าสูู่ ASTF"."\n". "กรุณากด [H] เพื่อดูเมนู" 
 			// "text"
 			];
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "H")
