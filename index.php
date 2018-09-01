@@ -96,7 +96,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ปุ๋ย"){
 				
-				$messages = ['type' => 'text', 'text' => "ปุ๋ย" ."\n" . "ดูข้อมูลปุ๋ยและวิธีการใช้ปุ๋ยในแต่ละช่วงอายุ" .  "\n" . "https://app.luminpdf.com/viewer/PGJn9rHhyfcqwm8f4."  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ปุ๋ย" ."\n" . "ดูข้อมูลปุ๋ยและวิธีการใช้ปุ๋ยในแต่ละช่วงอายุ" .  "\n" . "http://www.pravitgroup.co.th/2016/fertilizer_rubber_tree/."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			
 			
