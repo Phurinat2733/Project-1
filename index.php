@@ -119,13 +119,7 @@ if (!is_null($events['events']))
 				
   				$messages = ['type' => 'text', 'text' => "Hi 😄😄😄" ."\n" . "Welcome to ASTF "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ภาพ")
-			{
-				$messages = [
-				'type' => 'image',
-				'originalContentUrl' => "https://www.google.co.th/search?q=ประยุทธ์จันทร์โอชา+รูปหลุด&rlz=1C1VFKB_enTH734TH734&source=lnms&tbm=isch&sa=X&ved=0ahUKEwibiu-QmZndAhVBA4gKHe3oD4wQ_AUICigB",
-    				'previewImageUrl' => "https://www.google.co.th/search?q=ประยุทธ์จันทร์โอชา+รูปหลุด&rlz=1C1VFKB_enTH734TH734&source=lnms&tbm=isch&sa=X&ved=0ahUKEwibiu-QmZndAhVBA4gKHe3oD4wQ_AUICigB"];
-			}
+			
 			
 			
 			
