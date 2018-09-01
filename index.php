@@ -96,7 +96,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "2"){
 				
-				$messages = ['type' => 'text', 'text' => "ปุ๋ย" ."\n" . "ดูข้อมูลปุ๋ยและวิธีการใช้ปุ๋ยในแต่ละช่วงอายุ" .  "\n" . "http://www.pravitgroup.co.th/2016/fertilizer_rubber_tree/."  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ดูข้อมูลปุ๋ยและวิธีการใช้ปุ๋ยในแต่ละช่วงอายุ"  .  "\n" . "http://www.pravitgroup.co.th/2016/fertilizer_rubber_tree/."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "7"){
