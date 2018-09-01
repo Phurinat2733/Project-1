@@ -117,7 +117,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "Hi"){
 				
-				$messages = ['type' => 'text', 'text' => "Hi" ."\n" . "Welcome to ASTF "  .  "\n" . "click [H] for help"];
+				$messages = ['type' => 'text', 'text' => "Hi" ."\n" . "Welcome to ASTF "  .  "\n" . "click [H] for menu"];
 			}
 			
 			
