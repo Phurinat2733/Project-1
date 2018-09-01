@@ -155,6 +155,15 @@ if (!is_null($events['events']))
   				$messages = ['type' => 'text', 'text' => "Bye Bye 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
 	
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "Thank you"){
+				
+  				$messages = ['type' => 'text', 'text' => "see you next time 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+			}
+	
+			
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
