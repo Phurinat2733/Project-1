@@ -200,7 +200,7 @@ if (!is_null($events['events']))
 				$messages = ['type' => 'text', 'text' => "ยางพาราเป็นพืชเศรฐกิจไทย" ."\n"."อ่านเพิ่มเติม: https://th.wikipedia.org/wiki/%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%B2"];
 			}
 				
-			if ( ereg_replace('[[:space:]]+', '', trim($text)) == "วิธีการผสมปุ๋ย")
+			if ( ereg_replace('[[:space:]]+', '', trim($text)) == "O")
 			{
 				$rs = pg_query($dbconn, $sqlgetlastrecord) or die("Cannot execute query: $query\n");
 				$templink = "";
@@ -211,7 +211,7 @@ if (!is_null($events['events']))
 				$messages = ['type' => 'image', 'originalContentUrl' => $templink, 'previewImageUrl' => $templink];
 			}
 			$textSplited = split(" ", $text);
-			if ( ereg_replace('[[:space:]]+', '', trim($textSplited[0])) == "วิธีการผสมปุ๋ย")
+			if ( ereg_replace('[[:space:]]+', '', trim($textSplited[0])) == "O")
 			{
 				$dataFromshowtime = showtime($textSplited[1]);
 				$rs = pg_query($dbconn, $dataFromshowtime[1]) or die("Cannot execute query: $query\n");
@@ -238,7 +238,7 @@ if (!is_null($events['events']))
 						];
 				}
 			}
-			if ($text == "วิธีการผสมปุ๋ย")
+			if ($text == "O")
 			{
 				$rs = pg_query($dbconn, $sqlgetlastrecord) or die("Cannot execute query: $query\n");
 				$templink = "";
