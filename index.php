@@ -137,12 +137,11 @@ if (!is_null($events['events']))
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ฉํนสวยไหม"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "อิคคิว"){
 				
-  				$messages = ['type' => 'text', 'text' => "คุณสวยมากครับ 😍😍😍" ."\n" . "#เกรด 4 นะครับ 555. " . "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "อิคคิวโคตรสถุล" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
 			
-
 
 	
 			//EndCase
