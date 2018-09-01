@@ -66,32 +66,32 @@ if (!is_null($events['events']))
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			// Build message to reply back
-			$messages = ['type' => 'text', 'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."พิมพ์ตัวอักษรตามที่กำหนดให้" ."\n" ."\n". "[help] เพื่อดูเมนู" 
+			$messages = ['type' => 'text', 'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."พิมพ์ตัวอักษรตามที่กำหนดให้" ."\n" ."\n". "[Help] เพื่อดูเมนู" 
 			// "text"
 			];
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "help")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "Help")
 			{
 				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[ยางพารา] เพื่อดูข้อมูลยางพารา"."\n"."[ปุ๋ย] เพื่อดูข้อมูลปุ่ยยางพาราและธาตุอาหารที่ยางพาราต้องการ" . "\n"."[ราคาปุ๋ย] เพื่อดูราคาปุ๋ยที่มีวางจำหน่ายในสหกรณ์การเกษตรจังหวัดตรัง" ."\n"." [ราคายาง] เพื่อดูราคายาง" .  "\n"  . "[วิธีผสมปุ๋ย] เพื่อดูวิธีการผสมปุ๋ยใช้เอง"."\n"."[1] เพื่อดูตารางคำนวณสูตรปุ่ยยางพารา"."\n"."#ข้อมูลนี้จะคำนวณโดยใช้ดปรแกรม microsoft excel"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ราคายาง"){
 				
-				$messages = ['type' => 'text', 'text' => "ราคายางวันนี้ : " . "ข้อมูลจากการยางแห่งประเทศไทย" .  "\n" . "http://www.rubber.co.th/rubber2012/menu5.php." . "\n" . "ราคาเปิดตลาดอยู่ที่: 45.45บาท/กก." . "\n" . "ราคาปิดตลาดอยู่ที่: 44.97บาท/กก." .  "\n" . "[help] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ราคายางวันนี้ : " . "ข้อมูลจากการยางแห่งประเทศไทย" .  "\n" . "http://www.rubber.co.th/rubber2012/menu5.php." . "\n" . "ราคาเปิดตลาดอยู่ที่: 45.45บาท/กก." . "\n" . "ราคาปิดตลาดอยู่ที่: 44.97บาท/กก." .  "\n" . "[Help] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ยางพารา"){
 				
-				$messages = ['type' => 'text', 'text' => "ยางพารา : " . "ข้อมูลจากวิกิพีเดีย" .  "\n" . "https://th.wikipedia.org/wiki/%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%B2."  .  "\n" . "[help] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ยางพารา : " . "ข้อมูลจากวิกิพีเดีย" .  "\n" . "https://th.wikipedia.org/wiki/%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%B2."  .  "\n" . "[Help] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "วิธีผสมปุ๋ย"){
 				
-				$messages = ['type' => 'text', 'text' => "วิธีการผสมปุ๋ยใช้เอง" .  "\n" . "https://www2.moac.go.th/ewt_news.php?nid=436."  .  "\n" . "[help] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "วิธีการผสมปุ๋ยใช้เอง" .  "\n" . "https://www2.moac.go.th/ewt_news.php?nid=436."  .  "\n" . "[Help] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ราคาปุ๋ย"){
 				
-				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ย" .  "\n" . "https://app.luminpdf.com/viewer/PGJn9rHhyfcqwm8f4."  .  "\n" . "[help] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ย" .  "\n" . "https://app.luminpdf.com/viewer/PGJn9rHhyfcqwm8f4."  .  "\n" . "[Help] เพื่อดูเมนู"];
 			}
 			
 			
