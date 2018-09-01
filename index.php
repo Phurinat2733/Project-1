@@ -101,9 +101,9 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "7"){
 				
-				$messages = ['type' => 'text', 'text' => "ตารางคำนวณสูตรปุ๋ย" ."\n" . "คำนวณหาแม่ปุ๋ยมาผสมทำปุ๋ยโดยใช้ Microsoft Excel" .  "\n" . "https://docs.google.com/spreadsheets/d/1gR7ftZv48Xvcr8iSD0WLCXMn81L68-4g0LRx42M7-UU/edit#gid=1990499298"  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ตารางคำนวณแม่ปุ๋ยเพื่อนำมาผสมใช้เอง" ."\n" . "คำนวณหาแม่ปุ๋ยมาผสมทำปุ๋ยโดยใช้ Microsoft Excel" .  "\n" ."\n" . "ตารางคำนวณแม่ปุ๋ยที่ต้องใช้ผสมสำหรับต้นยางพาราอายุ 1-2 ปี" . "\n" . "https://docs.google.com/spreadsheets/d/1U97mzmDEU4y3amdJBGJOXJydq0PjFAyFvqSnGwdcVgg/edit#gid=2078396931" . "\n" . "ตารางคำนวณหาแม่ปุ๋ยที่ต้องใช้ผสมสำหรับต้นยางพาราอายุ 3-6 ปี" . "\n" . "https://docs.google.com/spreadsheets/d/1wNmXscKpbDh36H2883s2daVxpQCq_wd_geGMn-10YeQ/edit#gid=419917429" . "\n" . "ตารางคำนวณหาแม่ปุ๋ยที่ต้องนำมาผสมสำหรับต้นยางพาราอายุ 7-15 ปี" . "\n"  . "https://docs.google.com/spreadsheets/d/1xWtCHXIVOJ-dTH0wNPs8mwU7LXT9iz07svlbwe29DW0/edit#gid=598783784" . "\n" . "ตารางคำนวณหาแม่ปุ๋ยเพื่อนำมาผสมสำหรับต้นยางพาราอายุ 15 ปี ขึ้นไป" . "\n" . "https://docs.google.com/spreadsheets/d/1B1O2ro23FUxQUXMbZayJ2JPYACAn1jrLlt92dvkezqM/edit#gid=232299637" . "\n" . "[H] เพื่อดูเมนู"];
 			}
-			
+			 
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "5"){
 				
