@@ -81,7 +81,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1"){
 				
-				$messages = ['type' => 'text', 'text' => "ยางพารา : " . "ข้อมูลจากวิกิพีเดีย" .  "\n" . "https://th.wikipedia.org/wiki/%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%B2."  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ยางพารา : " . "ข้อมูลจากวิกิพีเดีย" .  "\n" . "th.wikipedia.org/wiki/ยางพารา."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "6"){
