@@ -74,27 +74,27 @@ if (!is_null($events['events']))
 				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[1] เพื่อดูข้อมูลยางพารา"."\n"."[2] เพื่อดูข้อมูลปุ่ยยางพาราและธาตุอาหารที่ยางพาราต้องการ" . "\n"."[3] เพื่อดูราคาปุ๋ยที่มีวางจำหน่ายในสหกรณ์การเกษตรจังหวัดตรัง" ."\n"." [4] เพื่อดูราคายาง" . "\n" . "[5] เพื่อดูราคาของปุ๋ยยางพาราที่ถูกที่สุดในช่วงอายุต่างๆ" . "\n"  . "[6] เพื่อดูวิธีการผสมปุ๋ยใช้เอง"."\n"."[7] เพื่อดูตารางคำนวณสูตรปุ๋ยยางพารา"."\n"."#ข้อมูลนี้จะคำนวณโดยใช้โปรแกรม microsoft excel"];
 			}
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ราคายาง"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "4"){
 				
 				$messages = ['type' => 'text', 'text' => "ราคายางวันนี้ : " . "ข้อมูลจากการยางแห่งประเทศไทย" .  "\n" . "http://www.rubber.co.th/rubber2012/menu5.php."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ยางพารา"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1"){
 				
 				$messages = ['type' => 'text', 'text' => "ยางพารา : " . "ข้อมูลจากวิกิพีเดีย" .  "\n" . "https://th.wikipedia.org/wiki/%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B8%B2."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "วิธีผสมปุ๋ย"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "6"){
 				
 				$messages = ['type' => 'text', 'text' => "วิธีการผสมปุ๋ยใช้เอง" .  "\n" . "https://www2.moac.go.th/ewt_news.php?nid=436."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ราคาปุ๋ย"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "3"){
 				
 				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ย" .  "\n" . "https://app.luminpdf.com/viewer/PGJn9rHhyfcqwm8f4."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ปุ๋ย"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "2"){
 				
 				$messages = ['type' => 'text', 'text' => "ปุ๋ย" ."\n" . "ดูข้อมูลปุ๋ยและวิธีการใช้ปุ๋ยในแต่ละช่วงอายุ" .  "\n" . "http://www.pravitgroup.co.th/2016/fertilizer_rubber_tree/."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
