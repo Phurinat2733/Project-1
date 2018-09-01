@@ -161,13 +161,15 @@ if (!is_null($events['events']))
 				
   				$messages = ['type' => 'text', 'text' => "สบายดี ขอบคุณ 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
-	
+	               
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "How are you"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "แตก1"){
 				
-  				$messages = ['type' => 'text', 'text' => "I'm find Thank you 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "สวยพี่สวย!!!!!" ."\n" . "Thanks for Use CAL. " . "\n" . "click [H] for menu 😄😄😄"];
 			}
+			
+			
 	
 			
 			//EndCase
