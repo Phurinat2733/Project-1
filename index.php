@@ -119,13 +119,6 @@ if (!is_null($events['events']))
 				
   				$messages = ['type' => 'text', 'text' => "Hi 😄😄😄" ."\n" . "Welcome to ASTF "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
-			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "Korea"){
-				
-  				$messages = ['type' => 'text', 'text' => "안녕하세요 😄😄😄" ."\n" ."환영합니다 "  .  "\n" . "인쇄 [H] 메뉴를 보려면 😄😄😄"];
-			}
-			
-			
 			
 			
 			
