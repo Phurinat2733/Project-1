@@ -104,7 +104,11 @@ if (!is_null($events['events']))
 				$messages = ['type' => 'text', 'text' => "ตารางคำนวณสูตรปุ๋ย" ."\n" . "คำนวณหาแม่ปุ๋ยมาผสมทำปุ๋ยโดยใช้ Microsoft Excel" .  "\n" . "https://docs.google.com/spreadsheets/d/1gR7ftZv48Xvcr8iSD0WLCXMn81L68-4g0LRx42M7-UU/edit#gid=1990499298"  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			
-			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "5"){
+				
+				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ยใส่ยางพาราที่ถูกที่สุดในช่วงอายุต่างๆ" ."\n" . "คำนวณหาราคาปุ๋ยที่ถุกที่สุดโดยวิธีเปรียบเทียบอัตราส่วน และขั้นตอนวิธีซิมเพล็กซ์ " .  "\n" . "https://app.luminpdf.com/viewer/ktstTdHdTABkjKpvW"  .  "\n" . "[H] เพื่อดูเมนู"];
+			}
 			
 			
 			
