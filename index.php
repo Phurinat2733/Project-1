@@ -93,6 +93,11 @@ if (!is_null($events['events']))
 				
 				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ย" .  "\n" . "https://app.luminpdf.com/viewer/PGJn9rHhyfcqwm8f4."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ปุ๋ย"){
+				
+				$messages = ['type' => 'text', 'text' => "ปุ๋ย" ."\n" . "ดูข้อมูลปุ๋ยและวิธีการใช้ปุ๋ยในแต่ละช่วงอายุ" .  "\n" . "https://app.luminpdf.com/viewer/PGJn9rHhyfcqwm8f4."  .  "\n" . "[H] เพื่อดูเมนู"];
+			}
 			
 			
 			
