@@ -175,11 +175,6 @@ if (!is_null($events['events']))
   				$messages = ['type' => 'text', 'text' => "แตก1!!!!!" ."\n" . "ขอบคุณที่ใช้บริการ. " . "\n" . "พิมพ์ [H] เพื่อดูเมนู นะครับ😄😄😄"];
 			}
 			
-			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "สวยพี่สวย"){
-				
-  				$messages = ['type' => 'text', 'text' => "แตก1!!!!!" ."\n" . "ขอบคุณที่ใช้บริการ. " . "\n" . "พิมพ์ [H] เพื่อดูเมนู นะครับ😄😄😄"];
-			}
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ขอถามอะไรได้ไหม"){
