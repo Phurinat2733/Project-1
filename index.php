@@ -66,7 +66,7 @@ if (!is_null($events['events']))
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			// Build message to reply back
-			$messages = ['type' => 'text', 'text' => "ยินดีต้อนรับคุณเข้าสูู่ CAL."."\n". "กรุณาพิมพ์ [H] เพื่อดูเมนูนะครับ 😊😊😊" 
+			$messages = ['type' => 'text', 'text' => "ยินดีต้อนรับคุณเข้าสูู่ แอปของเรา."."\n". "กรุณาพิมพ์ [H] เพื่อดูเมนูนะครับ 😊😊😊" 
 			// "text"
 			];
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "H")
@@ -127,39 +127,39 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ฝันดี"){
 				
-  				$messages = ['type' => 'text', 'text' => "นอนหลับฝันดีนะครับ 😍😍😍" ."\n" . "ขอบคุณที่ใช้บริการนะครับ. "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "นอนหลับฝันดีนะครับ 😍😍😍" ."\n" . "ขอบคุณที่ใช้บริการ. "  .  "\n" . "พิมพ์ [H] เพื่อดูเมนู 😄😄😄"];
 			}
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ขอบคุณ"){
 				
-  				$messages = ['type' => 'text', 'text' => "ขอบคุณที่ใช้บริการนะครับ 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "ขอบคุณที่ใช้บริการนะครับ 😍😍😍" ."\n" . "Thanks for Use . "  .  "\n" . "พิมพ์ [H] เพื่อดูเเมนูนู 😄😄😄"];
 			}
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "บาย"){
 				
-  				$messages = ['type' => 'text', 'text' => "ขอบคุณที่ใช้บริการนะครับ 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "ขอบคุณที่ใช้บริการนะครับ 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "พิมพ์ [H] เพื่อดูเมนู 😄😄😄"];
 			}
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "Thankyou"){
 				
-  				$messages = ['type' => 'text', 'text' => "Your'e Welcome 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "Your'e Welcome 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "Print [H] for menu 😄😄😄"];
 			}
 			
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "Bye"){
 				
-  				$messages = ['type' => 'text', 'text' => "Bye Bye 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "Bye Bye 😍😍😍" ."\n" . "Thanks for Use CAL. "  .  "\n" . "Print [H] for menu 😄😄😄"];
 			}
 	                
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "เป็นไงบ้าง"){
 				
-  				$messages = ['type' => 'text', 'text' => "สบายดี ขอบคุณ 😍😍😍" ."\n" . "ขอบคุณที่ใช้บริการ. "  .  "\n" . "พิมพ์ [H] เพื่อดู นะครับ😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "ฉันสบายดี ขอบคุณ 😍😍😍" ."\n" . "ขอบคุณที่ใช้บริการ. "  .  "\n" . "พิมพ์ [H] เพื่อดู นะครับ😄😄😄"];
 			}
 	               
 			
