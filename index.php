@@ -190,8 +190,16 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg"];
 			}
-			
-			
+			//Begincase
+			  if($message == "ลาก่อน"){
+        $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
+        $arrayPostData['messages'][0]['type'] = "text";
+        $arrayPostData['messages'][0]['text'] = "อย่าทิ้งกันไป";
+        $arrayPostData['messages'][1]['type'] = "sticker";
+        $arrayPostData['messages'][1]['packageId'] = "1";
+        $arrayPostData['messages'][1]['stickerId'] = "131";
+        replyMsg($arrayHeader,$arrayPostData);
+    }
 			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
