@@ -86,7 +86,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "6"){
 				
-				$messages = ['type' => 'text', 'text' => "วิธีการผสมปุ๋ยใช้เอง" .  "\n" . "https://www2.moac.go.th/ewt_news.php?nid=436."  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "วิธีการผสมปุ๋ยใช้เอง : " . "ขอขอบคุณสำหรับข้อมูลจาก NanaGarden" .  "\n" . "https://www.nanagarden.com/topic/3829."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "3"){
@@ -107,7 +107,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "5"){
 				
-				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ยใส่ยางพาราที่ถูกที่สุดในช่วงอายุต่างๆ" ."\n" . "คำนวณหาราคาปุ๋ยที่ถุกที่สุดโดยวิธีเปรียบเทียบอัตราส่วน และขั้นตอนวิธีซิมเพล็กซ์ " .  "\n" . "https://docs.google.com/document/d/1xnbQIHYP_yboKn3CEE819JvgdpLwhJVhgp2aACyc-ww/edit"  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ราคาปุ๋ยใส่ยางพาราที่ถูกที่สุดในช่วงอายุต่างๆ" ."\n" . "คำนวณหาราคาปุ๋ยที่ถุกที่สุดโดยวิธีเปรียบเทียบอัตราส่วน" .  "\n" . "https://docs.google.com/document/d/1xnbQIHYP_yboKn3CEE819JvgdpLwhJVhgp2aACyc-ww/edit"  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "สวัสดี"){
