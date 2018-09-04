@@ -183,12 +183,12 @@ if (!is_null($events['events']))
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "รักนะ")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "ประยุทธ์")
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/04/fRia9S.gif",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/04/fRia9S.gif"];
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/04/fRRR2N.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/04/fRRR2N.jpg"];
 			}
 		
 			
