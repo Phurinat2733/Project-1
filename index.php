@@ -127,7 +127,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ฝันดี"){
 				
-  				$messages = ['type' => 'text', 'text' => "ฝันดีเช่นกัน 😍😍😍" ."\n" . "Welcome to CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
+  				$messages = ['type' => 'text', 'text' => "นอนหลับฝันดีนะครับ 😍😍😍" ."\n" . "ขอบคุณที่ใช้บริการนะครับ. "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
 			
 			//BeginCase
