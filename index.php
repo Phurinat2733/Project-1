@@ -190,7 +190,11 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/04/fRRR2N.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/04/fRRR2N.jpg"];
 			}
-		
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "ใครหล่อสุดในวิเชียร"){
+				
+  				$messages = ['type' => 'text', 'text' => "เฟิร์ส นวพรรษคับผมมม!!!!!" . "\n" . "ขอบคุณที่ใช้บริการ 20 ไอเฟิร์ส. " . "\n" . "พิมพ์ [H] เพื่อดูเมนู นะครับ😄😄😄"];
+			}
 			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
