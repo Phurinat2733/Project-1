@@ -76,7 +76,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "4"){
 				
-				$messages = ['type' => 'text', 'text' => "ราคายางวันนี้ : " . "ข้อมูลจากการยางแห่งประเทศไทย" .  "\n" . "http://www.rubber.co.th."  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ราคายางวันนี้ : " . "ข้อมูลจากการยางแห่งประเทศไทย" .  "\n" . "http://www.rubber.co.th/rubber2012/menu5.php"  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1"){
