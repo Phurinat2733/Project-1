@@ -96,7 +96,7 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "2"){
 				
-				$messages = ['type' => 'text', 'text' => "ดูข้อมูลข่าวสารเกี่ยวกับยางพารา"  .  "\n" . "http://www.raot.co.th/more_news.php?cid=10/."  .  "\n" . "[H] เพื่อดูเมนู"];
+				$messages = ['type' => 'text', 'text' => "ดูข้อมูลข่าวสารเกี่ยวกับยางพารา"  .  "\n" . "http://www.raot.co.th/more_news.php?cid=10&filename=index/."  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "7"){
