@@ -192,8 +192,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAWAWZ.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAWAWZ.jpg"];
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAdwmP.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAdwmP.jpg"];
 			}
 			
 			//EndCase
