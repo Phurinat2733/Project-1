@@ -207,36 +207,19 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAlDhE.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAlDhE.jpg"];
-	               	}
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAPmU0.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAPmU0.jpg"];
+			}
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "e")
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAlCRS.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAlCRS.jpg"];
-	               	}
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAs4Nv.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAs4Nv.jpg"];
+			}
 			
-			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "r")
-			{
-				$messages = [
-				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAlJRb.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAlJRb.jpg"];
-	               	}
-			
-			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "t")
-			{
-				$messages = [
-				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAoYRI.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAoYRI.jpg"];
-	               	}
 			
 			
 			//EndCase
