@@ -220,6 +220,23 @@ if (!is_null($events['events']))
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAs4Nv.jpg"];
 			}
 			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "14")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAuaSR.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAuaSR.jpg"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "15")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fA69Y1.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fA69Y1.jpg"];
+			}
 			
 			
 			//EndCase
