@@ -201,6 +201,44 @@ if (!is_null($events['events']))
 				
   				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[w] แผนภูมิแท่งเปรียบเทียบราคาปุ๋ยเคมี ปุ๋ยผสม และปุ๋ยอินทรีย์ อายุ 1-2 ปี"."\n"."[e]แผนภูมิแท่งเปรียบเทียบราคาปุ๋ยเคมี ปุ๋ยผสม และปุ๋ยอินทรีย์ อายุ 3-6 ปี " . "\n"."[r] แผนภูมิแท่งเปรียบเทียบราคาปุ๋ยเคมี ปุ๋ยผสม และปุ๋ยอินทรีย์ อายุ 7-15 ปี" ."\n"."[t]แผนภูมิแท่งเปรียบเทียบราคาปุ๋ยเคมี ปุ๋ยผสม และปุ๋ยอินทรีย์ อายุ 15 ปี ขึ้นไป"];
 			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "w")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAlDhE.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAlDhE.jpg"];
+	               	}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "e")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAlCRS.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAlCRS.jpg"];
+	               	}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "r")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAlJRb.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAlJRb.jpg"];
+	               	}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "t")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAoYRI.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAoYRI.jpg"];
+	               	}
+			
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
