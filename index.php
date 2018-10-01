@@ -239,6 +239,16 @@ if (!is_null($events['events']))
 			}
 			
 			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "What")
+			{
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/10/01/hN5egZ.gif",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/01/hN5egZ.gif"];
+			}
+			
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
