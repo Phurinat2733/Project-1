@@ -240,7 +240,7 @@ if (!is_null($events['events']))
 			
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "What")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
 				'type' => 'image',
