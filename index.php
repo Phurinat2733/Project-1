@@ -244,8 +244,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://soundcloud.com/0f5im8oaqr7c/shape-of-you-112",
-    				'previewVideoUrl' => "https://soundcloud.com/0f5im8oaqr7c/shape-of-you-112"];
+				'originalContentUrl' => "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+    				'previewVideoUrl' => "https://www.youtube.com/watch?v=JGwWNGJdvx8"];
 			}
 			
 			
