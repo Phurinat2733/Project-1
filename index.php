@@ -243,9 +243,9 @@ if (!is_null($events['events']))
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
-				'type' => ' Graphic Interchange Formaะ',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/10/01/hN5egZ.gif",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/01/hN5egZ.gif"];
+				'type' => 'video',
+				'originalContentUrl' => "https://soundcloud.com/0f5im8oaqr7c/shape-of-you-112",
+    				'previewVideoUrl' => "https://soundcloud.com/0f5im8oaqr7c/shape-of-you-112"];
 			}
 			
 			
