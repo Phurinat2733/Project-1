@@ -244,8 +244,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://upload.i4th.in.th/getlinks.php?s=f51315ca5225362da96a0fcf6eeb0e98",
-    				'previewVideoUrl' => "https://upload.i4th.in.th/getlinks.php?s=f51315ca5225362da96a0fcf6eeb0e98"];
+				'originalContentUrl' => "https://drive.google.com/file/d/1L0i8FGdEUWRXQwr5nLa-EohAYt8lEoxe/view?usp=sharing",
+    				'previewVideoUrl' => "https://drive.google.com/file/d/1L0i8FGdEUWRXQwr5nLa-EohAYt8lEoxe/view?usp=sharing"];
 			}
 			
 			
