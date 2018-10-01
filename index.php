@@ -244,8 +244,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://www.youtube.com/watch?v=JGwWNGJdvx8",
-    				'previewVideoUrl' => "https://www.youtube.com/watch?v=JGwWNGJdvx8"];
+				'originalContentUrl' => "https://upload.i4th.in.th/getlinks.php?s=f51315ca5225362da96a0fcf6eeb0e98",
+    				'previewVideoUrl' => "https://upload.i4th.in.th/getlinks.php?s=f51315ca5225362da96a0fcf6eeb0e98"];
 			}
 			
 			
