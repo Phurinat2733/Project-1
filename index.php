@@ -244,8 +244,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg"];
+				'originalContentUrl' => "https://vimeo.com/user90165019/review/292870028/e74512c2dc.mp4",
+    				'previewImageUrl' => "https://vimeo.com/user90165019/review/292870028/e74512c2dc.mp4"];
 			}
 			
 			
