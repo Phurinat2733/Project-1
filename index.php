@@ -245,7 +245,7 @@ if (!is_null($events['events']))
 				$messages = [
 				'type' => 'video',
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg",
-    				'previewVideoUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg"];
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg"];
 			}
 			
 			
