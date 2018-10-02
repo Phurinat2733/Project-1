@@ -244,8 +244,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://drive.google.com/file/d/1L0i8FGdEUWRXQwr5nLa-EohAYt8lEoxe/view?usp=sharing",
-    				'previewVideoUrl' => "https://drive.google.com/file/d/1L0i8FGdEUWRXQwr5nLa-EohAYt8lEoxe/view?usp=sharing"];
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg",
+    				'previewVideoUrl' => "https://www.picz.in.th/images/2018/09/03/fglfh9.jpg"];
 			}
 			
 			
