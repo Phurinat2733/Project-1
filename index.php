@@ -243,9 +243,9 @@ if (!is_null($events['events']))
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
-				'type' => 'video',
+				'type' => 'Image',
 				'originalContentUrl' => "https://vimeo.com/user90165019/review/292870028/e74512c2dc",
-    				'previewvideoUrl' => "https://vimeo.com/user90165019/review/292870028/e74512c2dc"];
+    				'previewImageUrl' => "https://vimeo.com/user90165019/review/292870028/e74512c2dc"];
 			}
 			
 			
