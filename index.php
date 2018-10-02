@@ -244,8 +244,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://vimeo.com/user90165019/review/292870028/e74512c2dc",
-    				'previewImageUrl' => "https://vimeo.com/user90165019/review/292870028/e74512c2dc"];
+				'originalContentUrl' => "https://photos.app.goo.gl/4taXqe28VWWmxgsb7",
+    				'previewImageUrl' => "https://photos.app.goo.gl/4taXqe28VWWmxgsb7"];
 			}
 			
 			
