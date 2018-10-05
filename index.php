@@ -249,8 +249,7 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://media.giphy.com/media/8ZhqbdslI3yYs933H3/giphy.mp4",
     				'previewImageUrl' => "https://media.giphy.com/media/8ZhqbdslI3yYs933H3/giphy.gif"];
 			}
-			https://media.giphy.com/media/8ZhqbdslI3yYs933H3/giphy.mp4
-			https://media.giphy.com/media/8ZhqbdslI3yYs933H3/giphy.gif
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
