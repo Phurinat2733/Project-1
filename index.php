@@ -246,8 +246,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://media.giphy.com/media/4NlZEWW1KZx2rPwcyA/giphy.mp4",
-    				'previewImageUrl' => "https://media.giphy.com/media/4NlZEWW1KZx2rPwcyA/giphy.gif"];
+				'originalContentUrl' => "https://media.giphy.com/media/8ZhqbdslI3yYs933H3/giphy.gif",
+    				'previewImageUrl' => "https://media.giphy.com/media/8ZhqbdslI3yYs933H3/giphy.mp4"];
 			}
 			
 			//EndCase
