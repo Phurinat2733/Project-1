@@ -245,7 +245,7 @@ if (!is_null($events['events']))
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
-				'type' => 'sound',
+				'type' => 'media',
 				'originalContentUrl' => "https://soundcloud.com/0f5im8oaqr7c/ed-sheeran-shape-of-you-official-video-online-audio-convertercom",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/hwH99D.jpg"];
 			}
