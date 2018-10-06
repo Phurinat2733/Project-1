@@ -246,8 +246,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/10/06/h1Bdtk.gif",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/h1Bdtk.gif"];
+				'originalContentUrl' => "https://media.giphy.com/media/MuC9gjT2pE1XQDW8PH/giphy.gif",
+    				'previewImageUrl' => "https://media.giphy.com/media/MuC9gjT2pE1XQDW8PH/giphy.gif"];
 			}
 			
 			//EndCase
