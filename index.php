@@ -246,7 +246,7 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://drive.google.com/uc?authuser=0&id=1xGv4ZWt5njKO2aIqcByX5gVCla54CuwH&export=download.mp4",
+				'originalContentUrl' => "https://doc-04-2s-docs.googleusercontent.com/docs/securesc/boa98netrjugf2uvdi61bckernsckfs6/kau74r79koodfsenhb41anp8j2upc9tc/1538798400000/04379265547993524309/04379265547993524309/1xGv4ZWt5njKO2aIqcByX5gVCla54CuwH?e=download.mp4",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/hwH99D.jpg"];
 			}
 			
