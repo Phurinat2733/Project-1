@@ -246,8 +246,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://doc-04-2s-docs.googleusercontent.com/docs/securesc/boa98netrjugf2uvdi61bckernsckfs6/kau74r79koodfsenhb41anp8j2upc9tc/1538798400000/04379265547993524309/04379265547993524309/1xGv4ZWt5njKO2aIqcByX5gVCla54CuwH?e=download.mp4",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/hwH99D.jpg"];
+				'originalContentUrl' => "http://data.whicdn.com/images/24881326/tumblr_m0533sxHIJ1qdpo8mo1_400_large.gif",
+    				'previewImageUrl' => "http://data.whicdn.com/images/24881326/tumblr_m0533sxHIJ1qdpo8mo1_400_large.gif"];
 			}
 			
 			//EndCase
