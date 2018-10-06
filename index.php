@@ -245,7 +245,7 @@ if (!is_null($events['events']))
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
-				'type' => 'Graphics Interchange Format',
+				'type' => 'sticker',
 				'originalContentUrl' => "https://media.giphy.com/media/MuC9gjT2pE1XQDW8PH/giphy.gif",
     				'previewImageUrl' => "https://media.giphy.com/media/MuC9gjT2pE1XQDW8PH/giphy.gif"];
 			}
