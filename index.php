@@ -245,7 +245,7 @@ if (!is_null($events['events']))
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
-				'type' => 'video',
+				'type' => 'image',
 				'originalContentUrl' => "http://data.whicdn.com/images/24881326/tumblr_m0533sxHIJ1qdpo8mo1_400_large.gif",
     				'previewImageUrl' => "http://data.whicdn.com/images/24881326/tumblr_m0533sxHIJ1qdpo8mo1_400_large.gif"];
 			}
