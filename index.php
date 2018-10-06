@@ -246,7 +246,7 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'sound',
-				'originalContentUrl' => "https://www.dropbox.com/s/93foh9yitu5mb65/Ed%20Sheeran%20-%20Shape%20of%20You%20%5BOfficial%20Video%5D.mp4?dl=0",
+				'originalContentUrl' => "https://soundcloud.com/0f5im8oaqr7c/ed-sheeran-shape-of-you-official-video-online-audio-convertercom",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/hwH99D.jpg"];
 			}
 			
