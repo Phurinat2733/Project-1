@@ -245,9 +245,9 @@ if (!is_null($events['events']))
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
-				'type' => 'image',
-				'originalContentUrl' => "http://data.whicdn.com/images/24881326/tumblr_m0533sxHIJ1qdpo8mo1_400_large.gif",
-    				'previewImageUrl' => "http://data.whicdn.com/images/24881326/tumblr_m0533sxHIJ1qdpo8mo1_400_large.gif"];
+				'type' => 'video',
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/10/06/h1Bdtk.gif",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/h1Bdtk.gif"];
 			}
 			
 			//EndCase
