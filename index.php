@@ -246,7 +246,7 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://drive.google.com/file/d/1xGv4ZWt5njKO2aIqcByX5gVCla54CuwH/view?usp=sharing.mp4",
+				'originalContentUrl' => "https://drive.google.com/uc?authuser=0&id=1xGv4ZWt5njKO2aIqcByX5gVCla54CuwH&export=download.mp4",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/hwH99D.jpg"];
 			}
 			
