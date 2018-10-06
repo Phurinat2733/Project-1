@@ -245,7 +245,7 @@ if (!is_null($events['events']))
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
-				'type' => 'video',
+				'type' => 'image',
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/10/06/h1Bdtk.gif",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/h1Bdtk.gif"];
 			}
