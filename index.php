@@ -246,8 +246,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://media.giphy.com/media/8ZhqbdslI3yYs933H3/giphy.mp4",
-    				'previewImageUrl' => "https://media.giphy.com/media/8ZhqbdslI3yYs933H3/giphy.gif"];
+				'originalContentUrl' => "https://www.dropbox.com/s/93foh9yitu5mb65/Ed%20Sheeran%20-%20Shape%20of%20You%20%5BOfficial%20Video%5D.mp4?dl=0",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/10/06/hwH99D.jpg"];
 			}
 			
 			//EndCase
