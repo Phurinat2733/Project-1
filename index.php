@@ -324,8 +324,8 @@ if (!is_null($events['events']))
 			}
 			if ($text == "map")
 			{
-				$messages = ['type' => 'location','title'=> 'my location','address'=> 'เคลิ้ม',
-				'latitude'=> 8.652311,'longitude'=> 99.918031];
+				$messages = ['type' => 'location','title'=> 'my location','address'=> 'โรงเรียนวิเชียรมาตุ',
+				'latitude'=> 7.503257,'longitude'=> 99.631138];
 			}
 			/*if($text == "image"){
 			$messages = [
