@@ -246,7 +246,7 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'video',
-				'originalContentUrl' => "https://www.youtube.com/watch?v=iByxlVvWrww.mp4",
+				'originalContentUrl' => "https://youtu.be/iByxlVvWrww",
     				'previewImageUrl' => "https://media.giphy.com/media/MuC9gjT2pE1XQDW8PH/giphy.gif"];
 			}
 			
