@@ -120,7 +120,7 @@ if (!is_null($events['events']))
   				$messages = ['type' => 'text', 'text' => "Hi 😄😄😄" ."\n" . "Welcome to Cal "  .  "\n" . "Print [H] for menu 😄😄😄"];
 			}
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "รัก,Love"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "รัก"){
 				
   				$messages = ['type' => 'text', 'text' => "รักเหมือนกัน 😍😍😍" ."\n" . "Welcome to CAL. "  .  "\n" . "click [H] for menu 😄😄😄"];
 			}
