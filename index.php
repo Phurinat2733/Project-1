@@ -245,7 +245,7 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'text',
-				'text' => "http://sand.96.lt/images/q.jpg"
+				'text' => "http://sand.96.lt/images/q.jpg"];
 			}
 			
 			//BeginCase
