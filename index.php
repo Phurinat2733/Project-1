@@ -241,6 +241,14 @@ if (!is_null($events['events']))
 	
 			
 			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "113")
+			{
+				$messages = [
+				'type' => 'text',
+				'text' => "http://sand.96.lt/images/q.jpg"
+			}
+			
+			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
 			{
 				$messages = [
@@ -249,6 +257,7 @@ if (!is_null($events['events']))
     				'previewImageUrl' => "https://media.giphy.com/media/MuC9gjT2pE1XQDW8PH/giphy.gif"];
 			}
 			
+		
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
