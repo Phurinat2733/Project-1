@@ -237,9 +237,8 @@ if (!is_null($events['events']))
 				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fA69Y1.jpg",
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fA69Y1.jpg"];
 			}
-			
+			// Message Event = TextMessage
 	
-
 			
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "112")
@@ -248,14 +247,6 @@ if (!is_null($events['events']))
 				'type' => 'video',
 				'originalContentUrl' => "https://youtu.be/iByxlVvWrww",
     				'previewImageUrl' => "https://media.giphy.com/media/MuC9gjT2pE1XQDW8PH/giphy.gif"];
-			}
-			
-			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "113")
-			{
-				$messages = [
-				'type' => 'text',
-				'text' => "http://sand.96.lt/images/q.jpg"
 			}
 			
 			//EndCase
