@@ -249,15 +249,10 @@ if (!is_null($events['events']))
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "16")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "17")
 			{
-				$messages = [
-				$messages = [
-				'type' => 'location',
-				'title'=> 'อ.เมือง จ.ตรัง',
-                		'address'=> 'ร้านแกงส้ม',
-                		'latitude'=> 7.559810,
-               			 'longitude'=> 99.607043];
+				$messages = ['type' => 'location','title'=> 'location','address'=> 'โรงเรียนวิเชียรมาตุ',
+				'latitude'=> 7.503257,'longitude'=> 99.631138];
 			}
 					
 			//EndCase
@@ -332,11 +327,7 @@ if (!is_null($events['events']))
 				}
 				$messages = ['type' => 'image', 'originalContentUrl' => $templink, 'previewImageUrl' => $templink];
 			}
-			if ($text == "map")
-			{
-				$messages = ['type' => 'location','title'=> 'my location','address'=> 'โรงเรียนวิเชียรมาตุ',
-				'latitude'=> 7.503257,'longitude'=> 99.631138];
-			}
+			
 			/*if($text == "image"){
 			$messages = [
 			$img_url = "http://sand.96.lt/images/q.jpg";
