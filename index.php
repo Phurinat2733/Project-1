@@ -251,8 +251,8 @@ if (!is_null($events['events']))
 			//BeginCase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "17")
 			{
-				$messages = ['type' => 'location','title'=> 'location\nเปิดทำการ','address'=> 'สหกรณ์การเกษตร',
-				'latitude'=> 7.503257,'longitude'=> 99.631138];
+				$messages = ['type' => 'location','title'=> 'location\nเปิดทำการ','address'=> 'สหกรณ์การเกษตรนาโยง',
+				'latitude'=> 7.561178,'longitude'=> 99.716670];
 			}
 					
 			//EndCase
