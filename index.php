@@ -257,8 +257,7 @@ if (!is_null($events['events']))
 				'title'=> 'อ.เมือง จ.ตรัง',
                 		'address'=> 'ร้านแกงส้ม',
                 		'latitude'=> 7.559810,
-               			 'longitude'=> 99.607043
-				];
+               			 'longitude'=> 99.607043];
 			}
 					
 			//EndCase
