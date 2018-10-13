@@ -248,12 +248,7 @@ if (!is_null($events['events']))
     				'previewImageUrl' => "https://media.giphy.com/media/MuC9gjT2pE1XQDW8PH/giphy.gif"];
 			}
 			
-			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "137")
-			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรนาโยง',
-				'latitude'=> 7.561178,'longitude'=> 99.716670];
-			}
+			
 			
 			//Begincase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "M")
@@ -266,7 +261,77 @@ if (!is_null($events['events']))
 			{
 				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[A1] สหกรณ์การเกษตร(สังข์วิทย์)"."\n"."[A2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาตรัง(ข้างสนามกีฬา) " . "\n"."[A3] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขารักษ์จันทร์ " ."\n"."[A4] การยางแห่งประเทศไทยจังหวัดตรัง " . "\n" . "[A5] ตลาดประมูลยางท้องถิ่นจังหวัดตรัง" . "\n"  . "[A6] สหกรณ์กองทุนสวนยางอำเภอเมืองตรัง จำกัด"."\n"."[A7] สหกรณ์กองทุนสวนยางบ้านไร่พรุ จำกัด"."\n"."[A8] สำนักงานเกษตรอำเภอเมืองตรัง"."\n". "[A9] สำนักงานเกษตรจังหวัดตรัง"."\n". "[A10] สำนักงานพัฒนาที่ดินตรัง"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
 			}
-					
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตร(สังข์วิทย์)',
+				'latitude'=> 7.567327,'longitude'=> 99.609301];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรจังหวัดตรัง(ข้างสนามกีฬา)',
+				'latitude'=> 7.552412,'longitude'=> 99.614273];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขารักษ์จันทร์',
+				'latitude'=> 7.570532,'longitude'=> 99.615006];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A4")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'การยางแห่งประเทศไทยจังหวัดตรัง',
+				'latitude'=> 7.573122,'longitude'=> 99.616667];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A5")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ตลาดประมูลยางท้องถิ่นจังหวัดตรัง',
+				'latitude'=> 7.573195,'longitude'=> 99.616171];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A6")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์กองทุนสวนยางอำเภอเมืองตรัง จำกัด',
+				'latitude'=> 7.506532,'longitude'=> 99.639957];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A7")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์กองทุนสวนยางบ้านไร่พรุ จำกัด',
+				'latitude'=> 7.567024,'longitude'=> 99.598008];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A8")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรอำเภอเมืองตรัง',
+				'latitude'=> 7.561105,'longitude'=> 99.606446];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A9")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรจังหวัดตรัง',
+				'latitude'=> 7.560295,'longitude'=> 99.606944];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A10")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานพัฒนาที่ดินจังหวัดตรัง',
+				'latitude'=> 7.515290,'longitude'=> 99.642318];
+			}
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
