@@ -256,6 +256,7 @@ if (!is_null($events['events']))
 				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้"."\n"."\n"."[16] สถานที่ราชการสำหรับเกษตรกรในอำเภอเมืองตรัง"."\n"."[17] สถานที่ราชการสำหรับเกษตรกรในอำเภอย่านตาขาว" . "\n"."[18] สถานที่ราชการสำหรับเกษตรกรในอำเภอปะเหลียน" ."\n"."[19] สถานที่ราชการสำหรับเกษตรกรในกิ่งอำเภอหาดสำราญ" . "\n" . "[20] สถานที่ราชการสำหรับเกษตรกรในอำเภอสิเกา" . "\n"  . "[21] สถานที่ราชการสำหรับเกษตรกรในอำเภอกันตัง"."\n"."[22] สถานที่ราชการสำหรับเกษตรกรในอำเภอห้วยยอด"."\n"."[23] สถานที่ราชการสำหรับเกษตรกรในอำเภอรัษฎา"."\n". "[24] สถานที่ราชการสำหรับเกษตรกรในอำเภอวังวิเศษ"."\n". "[25] สถานที่ราชการสำหรับเกษตรกรในอำเภอนาโยง"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
 			}
 			
+			//อำเภอเมือง
 			//Begincase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "16")
 			{
@@ -330,6 +331,41 @@ if (!is_null($events['events']))
 			{
 				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานพัฒนาที่ดินจังหวัดตรัง',
 				'latitude'=> 7.515290,'longitude'=> 99.642318];
+			}
+			
+			//อำเภอย่านตาขาว
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "17")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[B1] สหกรณ์การเกษตรย่านตาขาว"."\n"."[B2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาย่านตาขาว " . "\n"."[B3] การยางแห่งประทศไทยย่านตาขาว " ."\n"."[B4] สำนักงานเกษตรอำเภอย่านตาขาว "."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "B1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรย่านตาขาว',
+				'latitude'=> 7.378438,'longitude'=> 99.674736];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "B2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาย่านตาขาว',
+				'latitude'=> 7.382990,'longitude'=> 99.670465];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "B3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'การยางแห่งประเทศไทยย่านตาขาว',
+				'latitude'=> 7.380874,'longitude'=> 99.673080];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "B4")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรอำเภอย่านตาขาว',
+				'latitude'=> 7.385643,'longitude'=> 99.667429];
 			}
 			
 			//EndCase
