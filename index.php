@@ -368,6 +368,70 @@ if (!is_null($events['events']))
 				'latitude'=> 7.385643,'longitude'=> 99.667429];
 			}
 			
+			//อำเภอปะเหลียน
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "18")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[C1] สหกรณ์การเกษตรปะเหลียน"."\n"."[C2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาทุ่งยาว " . "\n"."[C3] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรปะเหลียน(ถนนท่าพญา) " ."\n"."[C4] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาหาดเลา "."\n"."[C5] ศูนย์วิจัยพัฒนาการเกษตร"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรปะเหลียน',
+				'latitude'=> 7.317135,'longitude'=> 99.673357];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาทุ่งยาว',
+				'latitude'=> 7.215304,'longitude'=> 99.734238];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรปะเหลียน(ถนนท่าพญา)',
+				'latitude'=> 7.208606,'longitude'=> 99.71596];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C4")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาหาดเลา',
+				'latitude'=> 7.209142,'longitude'=> 99.725595];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C5")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ศูนย์วิจัยและพัฒนาการเกษตร',
+				'latitude'=> 7.255046,'longitude'=> 99.728389];
+			}
+			
+			//กิ่งอำเภอหาดสำราญ
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "19")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[D1] สหกรณ์การเกษตรหาดสำราญ"."\n"."[D2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาหาดสำราญ"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "D1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรหาดสำราญ',
+				'latitude'=> 7.301512,'longitude'=> 99.582468];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "D2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาหาดสำราญ',
+				'latitude'=> 7.237284,'longitude'=> 99.580519];
+			}
+			
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
