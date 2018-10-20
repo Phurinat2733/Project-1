@@ -431,6 +431,75 @@ if (!is_null($events['events']))
 				'latitude'=> 7.237284,'longitude'=> 99.580519];
 			}
 			
+			//อำเภอสิเกา
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "20")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[E1] สหกรณ์การเกษตรอุตสาหกรรมตรัง จำกัด"."\n"."[E2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาสิเกา " . "\n"."[E3] สำนักงานเกษตรสิเกา"."\n"."[E4] การยางแห่งประทศไทยสิเกา"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรอุตสาหกรรมตรัง จำกัด',
+				'latitude'=> 7.660943,'longitude'=> 99.321386];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาสิเกา',
+				'latitude'=> 7.575900,'longitude'=> 99.345123];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรสิเกา',
+				'latitude'=> 7.575910,'longitude'=> 99.345123];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E4")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'การยางแห่งประเทศไทยสิเกา',
+				'latitude'=> 7.559956,'longitude'=> 99.356703];
+			}
+			
+			//อำเภอกันตัง
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "21")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[E1] สหกรณ์การเกษตรอุตสาหกรรมตรัง จำกัด"."\n"."[E2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาสิเกา " . "\n"."[E3] สำนักงานเกษตรสิเกา"."\n"."[E4] การยางแห่งประทศไทยสิเกา"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรอุตสาหกรรมตรัง จำกัด',
+				'latitude'=> 7.660943,'longitude'=> 99.321386];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาสิเกา',
+				'latitude'=> 7.575900,'longitude'=> 99.345123];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรสิเกา',
+				'latitude'=> 7.575910,'longitude'=> 99.345123];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E4")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'การยางแห่งประเทศไทยสิเกา',
+				'latitude'=> 7.559956,'longitude'=> 99.356703];
+			}
 			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
