@@ -470,36 +470,73 @@ if (!is_null($events['events']))
 			//Begincase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "21")
 			{
-				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[E1] สหกรณ์การเกษตรอุตสาหกรรมตรัง จำกัด"."\n"."[E2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาสิเกา " . "\n"."[E3] สำนักงานเกษตรสิเกา"."\n"."[E4] การยางแห่งประทศไทยสิเกา"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[F1] สหกรณ์การเกษตรกันตัง"."\n"."[F2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขากันตัง" . "\n"."[F3] สำนักงานเกษตรกันตัง"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E1")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F1")
 			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรอุตสาหกรรมตรัง จำกัด',
-				'latitude'=> 7.660943,'longitude'=> 99.321386];
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรกันตัง',
+				'latitude'=> 7.409710,'longitude'=> 99.522722];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E2")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F2")
 			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาสิเกา',
-				'latitude'=> 7.575900,'longitude'=> 99.345123];
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขากันตัง',
+				'latitude'=> 7.405768,'longitude'=> 99.514274];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E3")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F3")
 			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรสิเกา',
-				'latitude'=> 7.575910,'longitude'=> 99.345123];
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรกันตัง',
+				'latitude'=> 7.406330,'longitude'=> 99.517271];
+			}
+		
+			//อำเภอห้วยยอด
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "22")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[G1] สหกรณ์การเกษตรกันตัง"."\n"."[G2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขากันตัง" . "\n"."[G3] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาย่อยลำภูรา"."\n"."[G4] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขานาวง"."\n"."[G5] สำนักงานเกษตรห้วยยอด"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E4")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "G1")
 			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'การยางแห่งประเทศไทยสิเกา',
-				'latitude'=> 7.559956,'longitude'=> 99.356703];
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรห้วยยอด',
+				'latitude'=> 7.791532,'longitude'=> 99.632123];
 			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "G2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาห้วยยอด',
+				'latitude'=> 7.788009,'longitude'=> 99.634418];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "G3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาย่อยลำภูรา',
+				'latitude'=> 7.806502,'longitude'=> 99.589610];
+			}
+			
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "G4")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขานาวง',
+				'latitude'=> 7.754229,,'longitude'=> 99.489711];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "G5")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรห้วยยอด',
+				'latitude'=> 7.789226,'longitude'=> 99.634545];
+			}
+		
 			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
