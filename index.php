@@ -578,6 +578,41 @@ if (!is_null($events['events']))
 				'latitude'=> 7.736584,'longitude'=> 99.393910];
 			}
 			
+			//อำเภอนาโยง
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "25")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[J1] สหกรณ์การเกษตรนาโยง"."\n"."[J2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขานาโยง(ข้างเทศบาล)" . "\n"."[J3] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรเขาวิเศษ"."\n"."[J4] สำนักงานการเกษตรนาโยง"."\n"."# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "J1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรนาโยง',
+				'latitude'=> 7.663932,'longitude'=> 99.466577];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "J2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรนาโยง(ข้างเทศบาล)',
+				'latitude'=> 7.563779,'longitude'=> 99.693733];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "J3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร(ข้างเค้กสายใจ)',
+				'latitude'=> 7.562332,'longitude'=> 99.703271];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "J4")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรนาโยง',
+				'latitude'=> 7.562006,'longitude'=> 99.695762];
+			}
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
