@@ -470,63 +470,77 @@ if (!is_null($events['events']))
 			//Begincase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "21")
 			{
-				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[E1] สหกรณ์การเกษตรอุตสาหกรรมตรัง จำกัด"."\n"."[E2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาสิเกา " . "\n"."[E3] สำนักงานเกษตรสิเกา"."\n"."[E4] การยางแห่งประทศไทยสิเกา"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[E1] สหกรณ์การเกษตรกันตัง"."\n"."[E2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขากันตัง " . "\n"."[E3] สำนักงานเกษตรกันตัง"."\n"."[E4] การยางแห่งประทศไทยกันตัง"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E1")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F1")
 			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรอุตสาหกรรมตรัง จำกัด',
-				'latitude'=> 7.660943,'longitude'=> 99.321386];
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรกันตัง',
+				'latitude'=> 7.409614,'longitude'=> 99.522701];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E2")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F2")
 			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาสิเกา',
-				'latitude'=> 7.575900,'longitude'=> 99.345123];
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขากันตัง',
+				'latitude'=> 7.405768,'longitude'=> 99.514252];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E3")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F3")
 			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรสิเกา',
-				'latitude'=> 7.575910,'longitude'=> 99.345123];
-			}
-			
-			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "E4")
-			{
-				$messages = ['type' => 'location','title'=> "location",'address'=> 'การยางแห่งประเทศไทยสิเกา',
-				'latitude'=> 7.559956,'longitude'=> 99.356703];
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรกันตัง',
+				'latitude'=> 7.406287,'longitude'=> 99.517293];
 			}
 			
 			//อำเภอห้วยยอด
 			//Begincase
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "22")
 			{
-				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[F1] สหกรณ์การเกษตรห้วยยอด"."\n"."[F2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาห้วยยอด" . "\n"."[F3] สำนักงานเกษตรห้วยยอด"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[G1] สหกรณ์การเกษตรห้วยยอด"."\n"."[G2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาห้วยยอด" . "\n"."[G3] สำนักงานเกษตรห้วยยอด"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F1")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "G1")
 			{
 				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรห้วยยอด',
 				'latitude'=> 7.791373,'longitude'=> 99.632112];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F2")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "G2")
 			{
 				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรห้วยยอด',
 				'latitude'=> 7.787514,'longitude'=> 99.634194];
 			}
 			
 			//BeginCase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F3")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "G3")
 			{
 				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรห้วยยอด',
 				'latitude'=> 7.789247,'longitude'=> 99.634492];
+			}
+			
+			//อำเภอรัษฎา
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "22")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[H1] สหกรณ์การเกษตรห้วยยอด"."\n"."[H2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาห้วยยอด" . "\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "H1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรรัษฎา',
+				'latitude'=> 7.989861,'longitude'=> 99.624247];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "H2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรรัษฎา',
+				'latitude'=> 7.993617,'longitude'=> 99.639711];
 			}
 			
 			
