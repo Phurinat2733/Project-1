@@ -501,6 +501,35 @@ if (!is_null($events['events']))
 				'latitude'=> 7.559956,'longitude'=> 99.356703];
 			}
 			
+			//อำเภอห้วยยอด
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "22")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[F1] สหกรณ์การเกษตรห้วยยอด"."\n"."[F2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาห้วยยอด" . "\n"."[F3] สำนักงานเกษตรห้วยยอด"."\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรห้วยยอด',
+				'latitude'=> 7.791373,'longitude'=> 99.632112];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรห้วยยอด',
+				'latitude'=> 7.787514,'longitude'=> 99.634194];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "F3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรห้วยยอด',
+				'latitude'=> 7.789247,'longitude'=> 99.634492];
+			}
+			
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
