@@ -524,7 +524,7 @@ if (!is_null($events['events']))
 			
 			//อำเภอรัษฎา
 			//Begincase
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "22")
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "23")
 			{
 				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[H1] สหกรณ์การเกษตรห้วยยอด"."\n"."[H2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาห้วยยอด" . "\n". "# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
 			}
@@ -543,6 +543,40 @@ if (!is_null($events['events']))
 				'latitude'=> 7.993617,'longitude'=> 99.639711];
 			}
 			
+			//อำเภอวังวิเศษ
+			//Begincase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "24")
+			{
+				$messages = ['type' => 'text', 'text' => "พิมพ์ตัวอักษรตามที่กำหนดให้เพื่อหาที่ตั้งของสถานที่"."\n"."\n"."[I1] สหกรณ์การเกษตรวังวิเศษ"."\n"."[I2] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรสาขาวังวิเศษ" . "\n"."[I3] ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรเขาวิเศษ"."\n"."[I4] สำนักงานการเกษตรวังวิเศษ"."\n"."# ติดต่อAdminได้ที่https://www.facebook.com/AppCALWCH/"];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "I1")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สหกรณ์การเกษตรวังวิเศษ',
+				'latitude'=> 7.663932,'longitude'=> 99.466577];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "I2")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรวังวิเศษ',
+				'latitude'=> 7.789488,'longitude'=> 99.389498];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "I3")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตรเขาวิเศษ',
+				'latitude'=> 7.671692,'longitude'=> 99.459045];
+			}
+			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "I4")
+			{
+				$messages = ['type' => 'location','title'=> "location",'address'=> 'สำนักงานเกษตรวังวิเศษ',
+				'latitude'=> 7.736584,'longitude'=> 99.393910];
+			}
 			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
