@@ -613,6 +613,14 @@ if (!is_null($events['events']))
 				'latitude'=> 7.562006,'longitude'=> 99.695762];
 			}
 			
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "111")
+			{
+				$messages = ['type' => 'text', 'text' => "https://drive.google.com/file/d/1PqdycuVb8N1HCI7ipBHkwsCrxtFEDiAw/view?usp=sharing"];
+			}
+				
+			
+			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
 			{
