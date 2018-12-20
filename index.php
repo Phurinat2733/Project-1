@@ -207,8 +207,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAPmU0.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAPmU0.jpg"];
+				'originalContentUrl' => "https://sv1.picz.in.th/images/2018/12/21/9w3PG1.png",
+    				'previewImageUrl' => "https://sv1.picz.in.th/images/2018/12/21/9w3PG1.png"];
 			}
 			
 			//BeginCase
@@ -216,8 +216,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAs4Nv.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAs4Nv.jpg"];
+				'originalContentUrl' => "https://sv1.picz.in.th/images/2018/12/21/9w3pG8.png",
+    				'previewImageUrl' => "https://sv1.picz.in.th/images/2018/12/21/9w3pG8.png"];
 			}
 			
 			//BeginCase
@@ -225,8 +225,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fAuaSR.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fAuaSR.jpg"];
+				'originalContentUrl' => "https://sv1.picz.in.th/images/2018/12/21/9w3LHu.png",
+    				'previewImageUrl' => "https://sv1.picz.in.th/images/2018/12/21/9w3LHu.png"];
 			}
 			
 			//BeginCase
@@ -234,8 +234,8 @@ if (!is_null($events['events']))
 			{
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/09/12/fA69Y1.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/09/12/fA69Y1.jpg"];
+				'originalContentUrl' => "https://sv1.picz.in.th/images/2018/12/21/9w3ygI.png",
+    				'previewImageUrl' => "https://sv1.picz.in.th/images/2018/12/21/9w3ygI.png"];
 			}
 			// Message Event = TextMessage
 			
