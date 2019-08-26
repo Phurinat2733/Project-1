@@ -619,6 +619,11 @@ if (!is_null($events['events']))
 				$messages = ['type' => 'text', 'text' => "https://docs.google.com/spreadsheets/d/1HKA610ClbB0WvbL24hVPY5J3llwyoTYj0ShoLDFefsQ/edit?usp=sharing"];
 			}
 				
+			//BeginCase
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "0609"){
+				
+  				$messages = ['type' => 'text', 'text' => "ปริมาตร"];
+			}
 			
 			
 			//EndCase
